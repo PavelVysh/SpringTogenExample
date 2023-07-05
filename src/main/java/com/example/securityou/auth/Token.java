@@ -1,4 +1,4 @@
-package com.example.securityou;
+package com.example.securityou.auth;
 
 import lombok.Data;
 

@@ -1,5 +1,6 @@
 package com.example.securityou;
 
+import com.example.securityou.auth.Token;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
