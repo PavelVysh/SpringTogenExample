@@ -60,7 +60,7 @@ class SecurityouApplicationTests {
 				"password": "TestPassword"
 				}
 				""";
-		MvcResult result = mockMvc.perform(post("/api/v1/auth/register")
+		mockMvc.perform(post("/api/v1/auth/register")
 						.contentType(MediaType.APPLICATION_JSON)
 						.content(user))
 				.andExpect(status().isOk())
